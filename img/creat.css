@@ -1,0 +1,422 @@
+*{
+    padding: 0;
+    margin: 0 ;
+}
+
+
+body{
+    background: rgba(43, 43, 43, 1);
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+ .navbar{
+    display: none;
+}
+
+#header{
+    padding-top: 20px;
+    height: 90px;
+    width: 100%;
+}
+
+.header-lol{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 25px;
+}
+
+.header-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;  
+}
+
+.header-one h1{
+    color: rgba(255, 255, 255, 1);
+    font-size: 30px;
+}
+
+.header-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;  
+}
+
+.header-two a{
+   font-size: 16px;
+   color: rgba(255, 255, 255, 1);
+   font-weight: 700;
+   padding-right: 20px;
+   transition:  0.5s ease, transform 0.5s ease;
+}
+
+.header-two a:hover{
+    color: red;
+}
+
+.header-two button{
+    width: 152px;
+    height: 60px;
+    background-color: rgba(162, 89, 255, 1);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border:  none;
+    font-size: 16px;
+}
+
+.header-two button:hover{
+    background-color: rgba(161, 89, 255, 0.646);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.header-icon{
+    padding-right: 15px;
+}
+
+
+.container{
+    width: 90%;
+    margin: 0;
+}
+
+.creat-count{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+     gap: 30px;
+}
+
+.section h1{
+    font-size: 51px;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.section p{
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.816);
+}
+
+.section input{
+    width: 330px;
+    height: 46px;
+    border: 1px solid rgba(133, 133, 132, 1);
+    background: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    padding-left: 40px;
+    font-size: 18px;
+}
+
+
+.section button{
+    width: 370px;
+    height: 46px;
+    background-color:rgba(162, 89, 255, 1);
+    border-radius: 20px;
+    color: rgb(231, 229, 224);
+    font-weight: 700;
+    font-size: 19px;
+    border: none;
+}
+
+.lknd{
+    position: relative;
+}
+.lknd ion-icon{
+    position: absolute;
+    left: 10px;
+    top: 13px;
+    color: rgb(118, 115, 109);
+    font-size: 20px;
+}
+
+.section-two{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.footer-input input{
+    width: 465px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.footer-input{
+    position: relative;
+}
+
+.footer-input button{
+    width: 211px;
+    height: 60px;
+    background-color: rgba(162, 89, 255, 1);
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border:none ;
+    position: absolute;
+    top: 0;
+    right:0px;
+    transition: 0.2s ease;
+}
+
+.footer-input button:hover{
+    background-color: #7f45ff; 
+    box-shadow: 0 4px 15px rgba(127, 69, 255, 0.5); 
+}
+
+.footer-input ion-icon{
+    padding-right: 10px;
+    font-size: 24px;
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.avatarku img{
+    max-width: 100%;
+}
+
+
+.footer button{
+    width: 211px;
+    height: 60px;
+    background-color: rgba(162, 89, 255, 1);
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border:none ;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: 0.3s ease;
+    
+}
+.footer button:hover{
+    background-color: #7f45ff; 
+    box-shadow: 0 4px 15px rgba(127, 69, 255, 0.5); 
+}
+.footer input{
+    width: 465px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding-left: 10px;
+    font-size: 16px;
+}   
+
+
+.footer-three{
+    position: relative;
+}
+
+.footer-three {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.NFT{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-one{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-two{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.footer p{
+    color: rgba(204, 204, 204, 0.606);
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+.ionnn:hover{
+    color: #aca5a5;
+}
+
+.ionnn{
+    color: rgb(245, 245, 233);
+    font-size: 20px;
+    padding-bottom: 20px ;
+    padding-top: 20px;
+}
+
+.footer h1{
+    font-size: 22px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+hr{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.p{
+    color: rgba(204, 204, 204, 1);
+    margin-bottom: 20px;
+}
+
+#section{
+    margin-bottom: 60px;
+}
+
+#footer{
+    padding-top: 40px;
+    width: 100%;
+    height: 334px;
+    background: rgba(59, 59, 59, 1);
+}
+.footer{
+     width: 90%;
+    margin: 0 auto;
+}
+
+.cont{
+    width: 90%;
+    margin: 0 auto;
+}
+.section-one img{
+    max-width: 100%;
+}
+@media (max-width: 835px){
+    .container{
+        width: 85%;
+      }
+   
+      .header-two {
+       display: none;
+      }
+      .header-one h1{
+         font-size: 24px;
+   
+      }
+      .header-lol{
+       width: 85%;
+       margin: 0 auto;
+       
+      }
+      .navbar{
+       display: flex;
+    }
+   
+    .section h1 {
+        font-size: 41px;
+        font-weight: 600;
+        color: aliceblue;
+    }
+
+  .section p {
+    font-size: 17px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.816);
+}
+    
+.section input {
+    width: 293px;
+}
+
+.section button {
+    width: 329px;
+}
+.footer-input input {
+    width: 300px;
+    height: 46px;
+    position: static;
+}
+
+.footer-input button{
+    margin-top: 10px;
+    width: 300px;
+    height: 703px;
+    position: static;
+}
+
+.footer{
+    flex-direction: column;
+    align-items: start;
+}
+
+#footer {
+    padding-top: 40px;
+    width: 100%;
+    height: 100%;
+    background: rgba(59, 59, 59, 1);
+}
+}
+ 
+@media (max-width: 375px){
+   .container{
+       width: 80%;
+   }
+
+    .section {
+    flex-direction: column;
+   }
+
+   .footer button{
+    position: static;
+   }
+
+   .footer input {
+    width: 330px;
+    height: 50px;
+   }
+
+   .footer button {
+    width: 337px;
+    height: 57px;
+   }
+
+
+
+
+}

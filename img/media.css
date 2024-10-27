@@ -1,0 +1,327 @@
+@media (max-width: 835px){
+   .container{
+     width: 85%;
+   }
+
+   .header-two {
+    display: none;
+   }
+   .header-one h1{
+      font-size: 24px;
+
+   }
+   .header-lol{
+    width: 85%;
+    margin: 0 auto;
+    
+   }
+   .navbar{
+    display: flex;
+ }
+
+ .main-left h1{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 55px;
+ }
+.main-left p{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.main-btn button{
+  width: 224px;
+  height: 60px;
+}
+
+
+.block-cod h2{
+    font-size: 35px; 
+}
+
+.block-cod h2 span{
+    font-size: 22px; 
+}
+
+.main-blocks{
+    gap: 25px; 
+}
+
+.main-back{
+    width: 330px;
+    height: 109px;
+}
+.main-contant{
+    
+    gap: 30px;
+}
+
+.trend-one h1{
+    font-size: 28px;
+}
+
+.one-left{
+    display: none;
+}
+.other-one h1{
+    font-size: 28px;
+}
+.other-one p{
+    font-size: 16px;
+}
+.other-one button{
+    width: 247px;
+    height: 60px;
+}
+
+.other-two{
+    width: 330px;
+    height: 100px;
+}
+
+.dream-one h1 {
+    font-size: 30px;
+}
+
+.box {
+    width: 150px;
+    height: 209px;
+}
+
+.dream-two h4 {
+    padding-left: 29px;
+    padding-top: 13px;
+}
+.art-first h1 {
+    font-size: 28px;
+}
+.art-first p{
+    font-size: 16px;
+}
+
+.art-plant button {
+    width: 178px;
+    font-size: 12px;
+}
+
+.art-second-child{
+    display: none;
+}
+
+.other-two {
+    flex-direction: row;
+}
+.other-two img{
+    width: 60px;
+    height: 60px;
+}
+
+
+
+.i {
+    width: 25px;
+    height: 20px;
+}
+.f h1{
+line-height: 40px;
+}
+#wach{
+    max-width: 100%;
+}
+
+.wach h1 {
+
+     font-size: 28px;
+}
+
+.world-two{
+    width: 210px;
+    height: 320px;
+}
+
+.world-two p{
+    font-size: 11px;
+    line-height: 20px;
+}
+.world-two h1{
+    font-size: 16px;
+}
+.world-two img{
+    width: 160px;
+    height: 160px;
+}
+#planeta{
+    margin-left: 65px;
+    width: 690px;
+    height: 360px;
+}
+
+.planeta-two h1 {
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.planeta-two p {
+   line-height: 20px;
+    font-size: 16px;
+    
+}
+
+.footer-input input {
+    width: 300px;
+    height: 46px;
+    position: static;
+}
+
+.footer-input button{
+    margin-top: 10px;
+    width: 300px;
+    height: 46px;
+    position: static;
+}
+
+.footer{
+    flex-direction: column;
+    align-items: start;
+}
+
+
+}
+
+@media (max-width: 375px){
+    .container{
+        width: 80%;
+    }
+
+    .main-contant{
+        flex-direction: column;
+    }
+
+    .header-lol {
+       width: 80%;
+       margin: 0 auto;
+    }
+   
+    .main-left p {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .block-cod h2 span {
+        font-size: 13px;
+    }
+    .block-cod h2 {
+        font-size: 26px;
+    }
+    section {
+        margin-top: 10px;
+    }
+    .main-back {
+        width: 300px;
+    }
+
+    .one-other{
+        display: none;
+    }
+    .cat-img img{
+        width: 95px;
+        height: 95px;
+    }
+
+    .plant{
+        display: none;
+    }
+
+    .block-avatara{
+        margin-top: 30px;
+    }
+
+    .box {
+        width: 128px;
+        height: 184px;
+    }
+.block{
+    display: none;
+}
+
+.art-plant button {
+    width: 290px;
+    font-size: 19px;
+}
+
+.art-second-child{
+    display: block;
+}
+.art-second{
+    margin-bottom: 20px;
+}
+
+.header-one {
+    gap: 9px;
+}
+.open-closes{
+    flex-direction: column;
+}
+
+.wach-ritgh p {
+    font-size: 14px;
+}
+
+.wach-ritgh h1 {
+    font-size: 20px;
+}
+
+.section{
+    flex-direction: column;
+    padding-top: 200px;
+}
+    
+.wach-ritgh h1{
+    font-size: 50px;
+}
+.art-plant button{
+    margin-top: 60px;
+}
+.world-one h1{
+   margin-top: 60px;
+}
+.wach-ritgh p{
+    font-size: 20px;
+    color: rgb(26, 25, 25);
+    font-weight: bold;
+}
+.wach-ritgh{
+    margin-top: 30px;
+}
+
+.unig{
+    flex-direction: column;
+}
+
+.world-two{
+    margin-bottom: 30px;
+    width: 315px;
+    height: 157px;
+    flex-direction: row;
+    
+}
+.world-two img{
+    width: 100px;
+    height: 100px;
+}
+#planeta{
+    margin-left: 0px;
+}
+.footer input{
+    width: 315px;
+    height: 46px;
+}
+.footer button{
+    position: static;
+    height: 46px;
+    width: 315px;
+}
+
+}
+
+
+
